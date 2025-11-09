@@ -2,7 +2,12 @@ const postsContainer = document.querySelector(".posts");
 const menuLinks = document.querySelectorAll(".menu a");
 const contactSection = document.querySelector(".contact");
 
-const API_URL = "https://unv-blog-backend.onrender.com";
+// Postlar uchun API
+const API_URL = "https://unv-blog-backend.onrender.com/api/posts";
+
+// Aloqa uchun API
+const CONTACT_API_URL = "https://unv-blog-backend.onrender.com/api/contact";
+
 
 // --- POSTS NI OLIB RENDER QILISH ---
 async function fetchPosts() {
