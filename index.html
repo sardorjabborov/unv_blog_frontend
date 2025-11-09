@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asosiy sahifa</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <!-- Chap panel -->
+    <aside class="sidebar">
+      <div class="logo"><h2>UNIVERSAL</h2></div>
+      <nav class="menu">
+        <a href="#" class="active">🏠 Asosiy sahifa</a>
+        <a href="#">📰 Maqolalar</a>
+        <a href="#">📚 Kategoriyalar</a>
+        <a href="#">⭐ Mashhurlar</a>
+        <a href="#">✉️ Aloqa</a>
+      </nav>
+      <div class="footer"><p>© 2025 Universal Blog</p></div>
+    </aside>
+
+    <!-- O'ng kontent -->
+    <main class="content">
+      <header>
+        <h1>So‘nggi maqolalar</h1>
+        <p>Ilhom beruvchi iqtiboslar va hayotiy parchalar</p>
+      </header>
+
+      <!-- Postlar bo'limi -->
+      <section class="posts"></section>
+
+      <!-- Aloqa bo'limi -->
+      <section class="contact" style="display:none;">
+        <h3>Aloqa</h3>
+        <input type="text" id="contactName" placeholder="Ismingiz">
+        <input type="text" id="contactPhone" placeholder="Telefon raqamingiz">
+        <input type="email" id="contactEmail" placeholder="Emailingiz">
+        <textarea id="contactMessage" placeholder="Xabaringiz"></textarea>
+        <button id="contactSubmit">Yuborish</button>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="js/app.mjs"></script>
+</body>
+</html>
